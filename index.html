@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>React Hello World</title>
+</head>
+
+<body>
+    <div id="application-root"></div>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script type="text/babel">
+        // Our code will go here
+        function App() {
+            // console.log(props);
+        return (
+    <main>
+        <h1>Sally Field</h1>
+      <section>
+        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/01/06/22/web-sally-field-getty.jpg" alt="sally field smiling" height="100" width="125" />
+        
+        <address>
+          <div>Sally Field</div>
+          <a href="mailto:sally.field@gmail.com">sally.field@gmail.com</a>
+          <a href="tel:+13115552368">(311) 555-2368</a>
+        </address>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li>Harvard University - BA in Theatre</li>
+          <li>Harvard University - MA in Art History</li>
+          <li>Oxford University - Masters Certificate: Software Engineering</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Employment History</h2>
+        <h3>1970-1977</h3>
+        <p>Of course he's a happy little stone, cause we don't have any other kind. Just let these leaves jump off the brush Let your heart be your guide. These things happen automatically. All you have to do is just let them happen. Little short strokes. Maybe we got a few little happy bushes here, just covered with snow.</p>
+         <h3>1984-1997</h3>
+        <p>We tell people sometimes: we're like drug dealers, come into town and get everybody absolutely addicted to painting. It doesn't take much to get you addicted. The little tiny Tim easels will let you down. I'm sort of a softy, I couldn't shoot Bambi except with a camera. Let's give him a friend too. Everybody needs a friend.</p>
+
+      </section>
+    </main>
+        );
+        }
+        ReactDOM.render(
+        <App />,
+        document.querySelector('#application-root')
+        );
+    </script>
+</body>
+
+</html>
